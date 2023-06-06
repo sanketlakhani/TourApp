@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#273238"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/user"
+        android:tint="#7CC27F" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:text="Username"
+        android:textColor="#697C85"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/edtUsernamee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:backgroundTint="#99FFFFFF"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:imeOptions="actionNext"
+        android:inputType="textAutoComplete"
+        android:textColorHint="@color/white"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Email"
+        android:textColor="#697C85"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/edtEmaill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:backgroundTint="#99FFFFFF"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Password"
+        android:textColor="#697C85"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/edtPasswordd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:backgroundTint="#99FFFFFF"
+        android:imeOptions="actionDone"
+        android:inputType="numberPassword"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:text="Forgot Password?"
+        android:textColor="#697C85"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/btnSignup"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/round_button"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#30643A"
+        android:textSize="@dimen/_15ssp" />
+
+
+</LinearLayout>

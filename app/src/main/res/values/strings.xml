@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">MasterProjectApp</string>
+    <string name="web_client_id">748432113334-16d2p0hf61075g1nmp4jq5g72s80tl79.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1401590617245948</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+    <string name="google_map_key">AIzaSyAqjhJsvYeFx3nBG8nkZjxkqrF7STBZbOo</string>
+    
+    <string name="dialog_color_1">#FDD736</string>
+    <string name="dialog_color_2">#385796</string>
+
+
+</resources>

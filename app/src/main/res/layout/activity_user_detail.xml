@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#273238"
+    android:orientation="vertical"
+    tools:context=".ActivityUserDetail">
+
+    <ImageView
+
+        android:id="@+id/imgBackkk"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/img_back"
+        android:tint="@color/white" />
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+
+                android:id="@+id/edtPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:background="@drawable/button_3"
+                android:hint="Enter name"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_color2" />
+
+            <EditText
+
+                android:id="@+id/edtMobNumber"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/button_3"
+                android:hint="Enter mobile number"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_color2" />
+
+            <EditText
+
+                android:id="@+id/edtEmailll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/button_3"
+                android:hint="Enter email"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_color2" />
+
+            <EditText
+
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/button_3"
+                android:hint="Enter address"
+                android:inputType="text"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_color2" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:text="Select your gender"
+                android:textColor="#697C85"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <RadioGroup
+
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+
+                        android:id="@+id/rBtnMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="male"
+                        android:textColor="#80C783"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+
+                        android:id="@+id/rBtnFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:text="female"
+                        android:textColor="#80C783"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+
+                        android:id="@+id/rBtnOther"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:text="other"
+                        android:textColor="#80C783"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="bold" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <EditText
+
+                android:id="@+id/edtNumPerson"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/button_3"
+                android:hint="Enter number of person"
+                android:inputType="number"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_color2" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:text="Select tour date : "
+                    android:textColor="#697C85"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtTourDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:text="12-12-22"
+                    android:textColor="#80C783"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <EditText
+
+                android:id="@+id/edtExtraNote"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/button_3"
+                android:hint="Enter extra note"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_color2" />
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/btnBookk"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/button_5"
+                android:text="Book"
+                android:textAllCaps="false"
+                android:textColor="#30643A"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

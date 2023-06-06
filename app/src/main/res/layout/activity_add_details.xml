@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#273238"
+    android:orientation="vertical"
+    tools:context=".ActivityAddDetails">
+
+
+    <ImageView
+
+        android:id="@+id/imgBack"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/img_back"
+        android:tint="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/imgBackground"
+                android:scaleType="centerCrop"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:src="@drawable/img_4" />
+
+                <ImageView
+
+                    android:id="@+id/imgAddImage"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:src="@drawable/plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:orientation="vertical">
+
+                <EditText
+
+                    android:id="@+id/edtPackName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:background="@drawable/button_3"
+                    android:hint="Enter package name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@drawable/cursor_color2" />
+
+                <EditText
+
+                    android:id="@+id/edtPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:background="@drawable/button_3"
+                    android:hint="Enter price"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@drawable/cursor_color2" />
+
+
+                <EditText
+
+                    android:id="@+id/edtDays"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:background="@drawable/button_3"
+                    android:hint="Enter total days"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@drawable/cursor_color2" />
+
+                <EditText
+
+                    android:id="@+id/edtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:background="@drawable/button_3"
+                    android:hint="Enter description "
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@drawable/cursor_color2" />
+
+
+                <EditText
+
+                    android:id="@+id/edtLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:background="@drawable/button_3"
+                    android:hint="Enter location "
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@drawable/cursor_color2" />
+
+
+                <!--<EditText
+
+                    android:id="@+id/edtLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:background="@drawable/button_3"
+                    android:hint="Enter location"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@drawable/cursor_color2" />
+-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/button_5"
+                    android:text="Add"
+                    android:textAllCaps="false"
+                    android:textColor="#30643A"
+                    android:textSize="@dimen/_12ssp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
